@@ -91,7 +91,7 @@ $('a[href*="#"]')
     });
 
 function button1() {
-    window.open('https://www.figma.com/file/17X9niDSoSJPE4SCrRaKBX/CPSC-581-Project-2?node-id=0%3A1', '_blank')
+    window.open('https://www.figma.com/file/zdYQ1VJe5nc6nA1FaDJ2kL/Prototype?node-id=1%3A2341', '_blank')
 }
 
 function button2() {
@@ -354,3 +354,10 @@ setInterval(() => {
 }, 3000);
 
 // :)
+
+// Can also be used with $(document).ready()
+$(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "slide"
+    });
+});
